@@ -12,11 +12,11 @@ Levels - Each level is an independent entity with a floor number, its lanes and 
 
 Slots - The spots are considered as the independednt entities to each other where in the type of the vehicle is considered to fill the slot.
 
-Vehicles - Object with plateno,company name and their type. A vehicle has the attributes of licenseplate and the company it is from.
+Vehicles - Object with plateno and their type. A vehicle has the attributes of licenseplate.
 
-I have considered Levels and Spots as entities that are independent so that any level can be added with a desired number of spots later.Each time a vehicle comes in or goes out, a list of vehicles for the particular company is updated.Also the available spots are updated in the particular level.
+I have considered Levels and Spots as entities that are independent so that any level can be added with a desired number of spots later.Each time a vehicle comes in or goes out.Also the available spots are updated in the particular level.
 
-Methods: ParkVehicle - This operation inserts a vehicle accordingly, also takes care of what company vehicle it is. Leave Operation - This operations exits a vehicle 'C' in a level 'm'. CompanyParked - This operation allows the user to view the list of vehicles parked for a particular company.
+Methods: ParkVehicle - This operation inserts a vehicle accordingly. Leave Operation - This operations exits a vehicle 'C' in a level 'm'.
 
 Main Program :
 
